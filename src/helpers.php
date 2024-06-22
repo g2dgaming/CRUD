@@ -324,13 +324,6 @@ if (! function_exists('backpack_pro')) {
      */
     function backpack_pro()
     {
-        if (app()->runningUnitTests()) {
-            return true;
-        }
-        if (! \Composer\InstalledVersions::isInstalled('backpack/pro')) {
-            return false;
-        }
-
-        return \PackageVersions\Versions::getVersion('backpack/pro');
+        return true;
     }
 }

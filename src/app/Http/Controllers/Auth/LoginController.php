@@ -21,7 +21,7 @@ class LoginController extends Controller
     |
     */
     use AuthenticatesUsers {
-        logout as defaultLogout;
+        AuthenticatesUsers::logout as defaultLogout;
     }
 
     /**
