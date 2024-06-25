@@ -1,5 +1,5 @@
 {
-    "name": "g2dgaming/crud",
+    "name": "backpack/crud",
     "type": "library",
     "description": "Quickly build an admin interfaces using Laravel, CoreUI, Bootstrap and jQuery.",
     "keywords": [
