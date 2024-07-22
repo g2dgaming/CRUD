@@ -47,8 +47,8 @@ class BackpackServiceProvider extends ServiceProvider
         $this->setupRoutes($this->app->router);
         $this->setupCustomRoutes($this->app->router);
         $this->publishFiles();
-        $this->checkLicenseCodeExists();
-        $this->sendUsageStats();
+        //$this->checkLicenseCodeExists();
+        //$this->sendUsageStats();
     }
 
     /**
